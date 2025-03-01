@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
     setErrorMessage('');
 
     try {
-      const response = await fetch('http://localhost:5000/send', {
+      const response = await fetch('https://trinity-ox5e.onrender.com/send', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
